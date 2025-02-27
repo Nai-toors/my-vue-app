@@ -9,9 +9,9 @@ import { createPinia } from 'pinia' //библиотека для управле
 import PrimeVue from 'primevue/config' //библиотека UI-компонентов
 
 // 3. Подключаем стили PrimeVue
-// import 'primevue/resources/themes/arya-blue/theme.css' // Стили для конкретной темы оформления
-// import 'primevue/resources/primevue.min.css' //стили для самих компонентов PrimeVu
-import 'primeicons/primeicons.css' //стили для иконок
+import 'primevue/themes/arya-blue/theme.css' // Стили для конкретной темы оформления
+import 'primeicons/primeicons.css' // стили для самих компонентов PrimeVu
+import 'primeflex/primeflex.css' // стили для иконок
 
 // 4. Подключаем PrimeFlex
 import 'primeflex/primeflex.css' //CSS-фреймворк для построения гибких и адаптивных макетов с использованием Flexbox
